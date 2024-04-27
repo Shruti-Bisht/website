@@ -115,13 +115,13 @@ body {
 /* custom scrollbar */
 
 ::-webkit-scrollbar {
-    width: 0.625rem;
+    width: 0.325rem;
 }
 ::-webkit-scrollbar-track {
     background: var(--white-color);
 }
 ::-webkit-scrollbar-thumb{
-    background : var(--gray-color);
+    background : var(--heading-color);
 }
 
 /* Home CSS */
