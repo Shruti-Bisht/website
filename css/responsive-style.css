@@ -2,12 +2,9 @@
 
 }
 
-@media (max-width: 991px) {
+@media (max-width: 891px) {
 
-    /* custom classes */
-    .text-content{
-        width: 100%;
-    }
+
 
     /* navbar brand */
     .navigation-wrap .navbar-brand logo{
@@ -15,45 +12,42 @@
     }
     
     .navigation-wrap{
-        color: black !important;
+        /* color: black !important; */
         text-align: center;
-        background-color: var(--white-color);
+        /* background-color: var(--white-color); */
     }
+    
     .navigation-wrap .nav-link{
         color: black !important;
         line-height: 1.875rem;
     }
 
-    .carousel-caption{
-        text-align: center;
-        justify-content: center;
+
+    .about-section .text-sec{
+        background:var(--white-color) !important;
+        
     }
-
-   
-
    
 }
 
 
 @media (max-width: 767px) {
+
     .home .height {
         height: 80vh;
+        flex-wrap: wrap;
+        display: flex;
+        width: 100%;
+
     }
 
-    .carousel-caption {
-        text-align:left; /* left align the content */
+    .carousel-caption h2{
+        font-size: 1.6em;
+        color: var(--white-color);
+        font-weight: bold;
+        padding-bottom: 2rem;
     }
-
-    .slogan {
-        margin-bottom: 3rem; /* Adjust margin for the slogan */
-        font-size: 2rem;
-    }
-
-    .btn-color {
-        margin-right: 5rem ;
-        margin-bottom: 3rem; /* Adjust margin for the button */
-        background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% transparency */    
-    }
+   
 }
 
 @media only screen and (max-width:680px){
