@@ -21,6 +21,8 @@
     padding: 0;
 }
 
+
+
 :active,
 :hover,
 :focus {
@@ -65,11 +67,12 @@ body {
 }
 
 .text-font {
-    font-family: "EB Garamond", serif !important;
+    font-family: "EB Garamond", serif ;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
   }
+
   .logo {
       font-size: 1.5em;
   }
@@ -81,12 +84,17 @@ body {
   }
 
   
+  
   .nav-link{
     color: var(--white-color);
     font-size: 0.9375rem;
     font-weight: 600;
     text-transform: capitalize;
     letter-spacing: 1px;
+  }
+
+  .nav-item .activenow{
+    color: var(--hover-color) !important;
   }
 
   /* change navbar styling on scroll */
@@ -122,63 +130,36 @@ body {
     height: 100vh;
 }
 
-.slide-style .height{
-    height: 100%;
+.main{
+    position: absolute;
+    top: 50%; /* Initially, set the top position to be in the middle of the viewport  */
+    margin-bottom: 5rem;
 }
-.btn-color{
+
+.carousel-caption h2{
+    font-size: 2.6em;
+    color: var(--white-color);
+    font-weight: bold;
+    padding-bottom: 4rem;
+}
+
+.readMore{
+    text-decoration: none;
     background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% transparency */
     color: white; /* Text color */
     font: 1em sans-serif;
     border: solid 1px var(--white-color); 
     padding: 10px 30px; /* Adjust padding as needed */
     border-radius: 5px;
-    margin-bottom: 10rem; 
 }
-.btn-color:hover{
+
+.readMore:hover{
     color: var(--primary-color) !important;
     border: solid 1px var(--white-color); 
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.slogan{
-    position: relative;
-    font-family: "EB Garamond", serif !important;
-    font-size : 3rem;
-    font-weight: 600;
-    margin-bottom: 10rem;
-}
-
-/* GridBox */
-/* .gallary-row{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.gallary-row .col{
-    flex: 33.3%;
-    width: auto;
-    overflow: hidden;
-    padding: 0 4px;
-    height: 100%;
-}
-
-.gallary-row .col img{
-    width: 100%;
-    height: 50%;
-    margin: 2% ;
-    cursor: pointer;
-    filter: grayscale(1) brightness(0.7);
-    border-radius: 10px;
-    transition: 0.3s linear;
-}
-
-.gallary-row .col img:hover{
-    filter: grayscale(0) brightness(1);
-    box-sizing:  0 0.125rem 1.75rem 0 rgb(0,0,0,0.9);  
-} */
-
-/* grid with boot */
+/* gallary grid with boot */
 
 .center_div .top_div{
     height: calc(var(--div-height) - 40vh);
@@ -229,16 +210,20 @@ body {
     height: 50;
 }
 
-.test {
+.img-details{
     color: var(--gray-color);
+    margin: 1rem;
+    padding: 0.5rem;
 }
 
-.test .row{
-    display: flex;
+/* =======testimonial styling  */
+.test {
+    color: var(--gray-color);
+    margin-top: 1rem !important;
 }
 
 .test p{
-    margin-top: 7rem !important;
+    margin-top: 4rem !important;
 }
 
 /* about section */
