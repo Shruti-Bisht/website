@@ -1,0 +1,63 @@
+@media  (max-width: 1209px) {
+
+}
+
+@media (max-width: 991px) {
+
+    /* custom classes */
+    .text-content{
+        width: 100%;
+    }
+
+    /* navbar brand */
+    .navigation-wrap .navbar-brand logo{
+        height:3.8125rem;
+    }
+    
+    .navigation-wrap{
+        color: black !important;
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+    }
+
+    .carousel-caption{
+        text-align: center;
+        justify-content: center;
+    }
+
+   
+
+   
+}
+
+
+@media (max-width: 767px) {
+    .home .height {
+        height: 80vh;
+    }
+
+    .carousel-caption {
+        text-align:left; /* left align the content */
+    }
+
+    .slogan {
+        margin-bottom: 3rem; /* Adjust margin for the slogan */
+        font-size: 2rem;
+    }
+
+    .btn-color {
+        margin-right: 5rem ;
+        margin-bottom: 3rem; /* Adjust margin for the button */
+        background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% transparency */    
+    }
+}
+
+@media only screen and (max-width:680px){
+    
+    .center_div img{
+        filter: grayscale(0) brightness(1);
+    }
+}
