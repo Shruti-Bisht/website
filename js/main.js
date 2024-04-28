@@ -52,7 +52,6 @@ function setActiveLink() {
     document.querySelectorAll('section').forEach((section) => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
-        console.log(`${section.getAttribute('id')} soctionTop is ${sectionTop} and SectionHeight is ${sectionHeight-100}`)
         // Check if the scroll position is within the section
         if (scrollPosition >= (sectionTop-100) && scrollPosition < sectionTop + (sectionHeight-100)) {
             // Get the corresponding nav-link for this section
